@@ -1,18 +1,23 @@
-# Boredphilosopher96 Aeroshift
+# Homebrew Tap For Aeroshift
 
-## How do I install these formulae?
+This tap publishes Homebrew casks for [Aeroshift](https://github.com/Boredphilosopher96/Aeroshift), the unofficial fork of [AeroSpace](https://github.com/nikitabobko/AeroSpace).
 
-`brew install boredphilosopher96/aeroshift/<formula>`
+## Install
 
-Or `brew tap boredphilosopher96/aeroshift` and then `brew install <formula>`.
+After a release cask is published here, install it with either:
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "boredphilosopher96/aeroshift"
-brew "<formula>"
+```bash
+brew tap boredphilosopher96/aeroshift
+brew install --cask aeroshift
 ```
 
-## Documentation
+or:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew install --cask boredphilosopher96/aeroshift/aeroshift
+```
+
+## Notes
+
+- This tap is for Aeroshift, not upstream AeroSpace.
+- Release artifacts are published from the fork repository, not from upstream.
